@@ -1,0 +1,41 @@
+
+
+.section-btn__items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 08px;
+    padding-bottom: 56px;
+}
+
+.section-btn__list{
+    color: $color-principal;
+    background-color: #F5F4FA;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.62;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 145px;
+    height: 38px;
+    transition-property: 
+    $background-color-principal;
+    transition-duration: 250ms;
+    transition-timing-function: 
+    $cubic;
+    transition-delay: 0;
+
+    
+    &:hover,
+    &:focus {
+        color: $color-terceario;
+        background-color: $background-color-principal;
+    }
+}
+

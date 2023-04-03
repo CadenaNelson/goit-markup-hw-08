@@ -1,0 +1,28 @@
+.section__title--service{
+    margin-bottom: 50px;
+}
+
+.section-benefist__items{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+
+    .section-service__images{
+        position: relative;
+    }
+
+    .section-service__text{
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        color: $color-terceario;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: 
+        rgba(47, 48, 58, 0.6);
+        line-height: 70px;
+    }
+}

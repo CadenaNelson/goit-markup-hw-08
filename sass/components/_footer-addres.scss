@@ -1,0 +1,56 @@
+
+
+.footer__address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    .footer__items{
+        list-style: none;
+        display: inline-block;
+        flex-direction: column;
+        margin: auto;
+    }
+        .footer__list{
+            color: $color-terceario;
+            width: 231px;
+            height: 21px;
+            margin-top: 9px;
+            margin-bottom: 9px;
+        }
+}
+
+.footer__email{
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    line-height: 1.71;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: 
+    cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+
+    &:hover,
+    &:focus {
+        color: $color-secundario;
+    }
+}
+
+.footer__telephone{
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    line-height: 1.71;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: 
+    $cubic;
+    transition-delay: 0;
+
+    &:hover,
+    &:focus {
+        color: $color-secundario;
+    }
+}
+

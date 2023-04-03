@@ -1,0 +1,24 @@
+.modal-btn-close{
+    position: absolute;
+    top: 17px;
+    right: 17px;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid $color-terceario;
+}
+
+.modal-icon__close{
+    fill: #000000;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: 
+    $cubic;
+    transition-delay: 0;
+
+    &:hover,
+    &:focus {
+        fill: $color-secundario;
+    }
+}

@@ -1,0 +1,36 @@
+.section-benefist{
+    .section-benefist__items{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        gap: 30px;
+    }
+
+    .section-benefist__icons{
+        background-color: #F5F4FA;
+        display: flex;
+        width: 270px;
+        height: 120px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .section-benefist__titles{
+        color: $color-principal;
+        font-weight: 700;
+        text-align: center;
+        align-items: center;
+        line-height: 1.14;
+        margin-top: 30px;
+    }
+
+    .section-benefist__text{
+        color: #757575;
+        font-weight: 400;
+        line-height: 1.71;
+        text-align: left;
+        margin-top: 19px;
+    }
+}
