@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <link rel="stylesheet" href="./css/main.css"/>
+        <link rel="stylesheet" href="./sass/main.css"/>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
@@ -128,7 +128,7 @@
 
                         <li>
                             <div class="section-benefist__icons">
-                                 <svg class="icon-clock" width="70px" height="70px">
+                                <svg class="icon-clock" width="70px" height="70px">
                                     <use href="./images/icons.svg/sprite.svg#icon-clock"></use>
                                 </svg>
                             </div>
@@ -190,7 +190,13 @@
                     <h2 class="section__title section__title--team">Nuestro Equipo</h2>
                     <ul class="list section-team__items">
                         <li class="section-team__list">
-                            <img src="./images/andrescubo.jpg" alt="Andrés Cubo" width="270px" height="368px";>
+                           
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="/images/team-1.jpg 1x, /images/team-1@2x.jpg 2x">
+                                <source media="(min-width: 768px)" srcset="/images/team-1-t.jpg 1x, /images/team-1-t@2x.jpg 2x">
+                                <source media="(max-width: 768px)" srcset="/images/team-1-d.jpg 1x, /images/team-1-d@2x.jpg 2x">
+                                <img src="/images/andrescubo.jpg" alt="Andrés Cubo">
+                              </picture>
                             <div class="section-team-member">
                                 <h3 class="section-team__name">Andrés Cubo</h3> 
                                 <p class="section-team__profesion">Diseñador de Productos</p>
@@ -227,7 +233,12 @@
                             </div>                              
                         </li>
                         <li class="section-team__list"> 
-                            <img src="./images/carlapalacios.jpg" alt="Carla Palacios" width="270px" height="368px">
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="/images/team-2.jpg 1x, /images/team-2@2x.jpg 2x">
+                                <source media="(min-width: 768px)" srcset="/images/team-2-t.jpg 1x, /images/team-2-t@2x.jpg 2x">
+                                <source media="(max-width: 768px)" srcset="/images/team-2-d.jpg 1x, /images/team-2-d@2x.jpg 2x">
+                                <img src="/images/carlapalacios,jpg" alt="Carla Palacios">
+                              </picture>
                             <div class="team-member">
                                 <h3 class="section-team__name">Carla Palacios</h3>
                                 <p class="section-team__profesion">Desarrolladora Front-end</p>
@@ -264,7 +275,12 @@
                             </div>                          
                         </li>
                         <li class="section-team__list">
-                            <img src="./images/mariodorado.jpg" alt="Mario Dorado" width="270px" height="368px">
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="/images/team-3.jpg 1x, /images/team-3@2x.jpg 2x">
+                                <source media="(min-width: 768px)" srcset="/images/team-3-t.jpg 1x, /images/team-3-t@2x.jpg 2x">
+                                <source media="(max-width: 768px)" srcset="/images/team-3-d.jpg 1x, /images/team-3-d@2x.jpg 2x">
+                                <img src="/images/mariodordo.jpg" alt="Mario Dorado">
+                              </picture>
                             <div class="team-member">
                                 <h3 class="section-team__name">Mario Dorado</h3>  
                                 <p class="section-team__profesion">Marketig</p>
@@ -301,7 +317,12 @@
                             </div>                                
                         </li>
                         <li class="section-team__list">
-                            <img src="./images/pablomijangos.jpg" alt="Pablo Mijangos" width="270px" height="368px"> 
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="/images/team-4.jpg 1x, /images/team-4@2x.jpg 2x">
+                                <source media="(min-width: 768px)" srcset="/images/team-4-t.jpg 1x, /images/team-4-t@2x.jpg 2x">
+                                <source media="(max-width: 768px)" srcset="/images/team-4-d.jpg 1x, /images/team-4-d@2x.jpg 2x">
+                                <img src="/images/pablomijangos.jpg" alt="Pablo Mijangos">
+                              </picture> 
                             <div class="team-member">
                                 <h3 class="section-team__name">Pablo Mijangos</h3>  
                                 <p class="section-team__profesion">Desarrolador UI</p>
