@@ -1589,9 +1589,9 @@ a {
   }*/
 
 /*--768px---*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
   .container{
-    width: 768px;
+    max-width: 768px;
   }
   .section{
     padding-top: 60px;
@@ -1749,7 +1749,7 @@ a {
 
 /*--1200px----*/ 
 
-@media screen and (min-width: 1200px) and (max-width: 1600px){
+@media screen and (min-width: 1200px){
   .container{
     width: 1200px;
     padding-left: 15px;
