@@ -1220,7 +1220,7 @@ a {
 
 /*480*/
 
-@media screen and (min-width: 480px) and (max-width: 767px){
+@media screen and (min-width: 480px) and (max-width: 767px){ /*  toco colocar and para que hiro se centrara en los 1200px*/
     .container{
         width: 480px;
         margin: auto;
@@ -1335,10 +1335,8 @@ a {
         }
 }
 
-
-
 /*   768   */
-
+    
 @media screen and (min-width:768px){
     .container{
         width: 768px;
@@ -1407,8 +1405,8 @@ a {
         display: flex;
         flex-wrap: wrap;
     }
-    .section-benefist__icons{
-        max-width: 354px;
+    .section-benefist .section-benefist__icons{
+        width: 100%;
         height: 120px;
     }
     .section-benefist__titles{
@@ -1500,7 +1498,6 @@ a {
             url(../images/bg-t@2x.jpg);
         }
 }
-
 /*    1200    */
 
 @media screen and (min-width: 1200px) {
@@ -1637,15 +1634,19 @@ a {
         text-align: center;
         margin-top: 30px;
     }
+    .section-benefist{
+        display: flex;
+    }
     .section-benefist__items{
+        display: flex;
         flex-basis: calc((100% - 120px) / 4);       
         list-style: none;
         gap: 30px; 
+        justify-content: space-between;
     }
     .section-benefist__icons{
         display: flex;
-        width: 270px;
-        height: 120px;
+        width: 100%;
         justify-content: center;
         align-items: center;
         text-align: center;
