@@ -3,11 +3,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 100px;
+        gap: 75px;
         text-decoration: none;
     }
 }
-  
 .header__nav{
     display: flex;
     justify-content: center;
@@ -22,9 +21,7 @@
         list-style: none;
         gap: 62px;
     }
-        
 }
-
 .header__nav-link--studio{
     position: relative;
     color: $color-secundario;
@@ -65,8 +62,6 @@
         border-radius: 2px;
     }
 }
-
-
 .header__nav-link--portfolio{
     position: relative;
     color: $color-secundario;
@@ -100,8 +95,6 @@
         color: $color-secundario;
     }
 }
-
-
 .header__nav-link{
     color: $color-principal;
     font-family: "Roboto";
@@ -118,12 +111,10 @@
     cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0;
 }
-&:hover,
-&:focus {
+.header__nav-link:hover,
+.header__nav-link:focus {
     color: $color-secundario;
 }
-
-
 .header-contacs{
     display: flex;
     justify-content: flex-end;
@@ -131,8 +122,8 @@
     list-style: none;
     gap: 30px;
 
-    &:hover use,
-    &:focus use {
+    .header-contacs__items:hover use,
+    .header-contacs__items:focus use {
         fill: $color-secundario;
     }
     .header-contacs__email{
@@ -150,8 +141,8 @@
         cubic-bezier(0.4, 0, 0.2, 1);
         transition-delay: 0;
     }
-    &:hover,
-    &:focus {
+    .header-contacs__email:hover,
+    .header-contacs__email:focus {
         color: $color-secundario;
     }
     .header-contacs__icon{
@@ -174,8 +165,8 @@
         cubic-bezier(0.4, 0, 0.2, 1);
         transition-delay: 0;
     }
-    &:hover,
-    &:focus {
+    .header-contacs__telephone:hover,
+    .header-contacs__telephone:focus {
         color: $color-secundario;
     }
 }

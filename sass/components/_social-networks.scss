@@ -19,7 +19,6 @@
         justify-content: space-between;
     } 
 }
-
 .social-networks-link{
     display: flex;
     justify-content: center;
@@ -42,8 +41,6 @@
         background-color: $background-color-principal;
     }
 }
- 
-
 .social-networks-icon{
     fill: #AFB1B8;
     transition-property: fill;
@@ -54,7 +51,7 @@
 
     &:hover,
     &:focus {
-       fill: $color-terceario;
-       cursor: pointer;
+    fill: $color-terceario;
+    cursor: pointer;
     }
 }

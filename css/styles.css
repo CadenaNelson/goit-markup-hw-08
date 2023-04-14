@@ -554,7 +554,7 @@ a {
 .section-benefist__icons{
     background-color: #F5F4FA;
     display: flex;
-    width: 270px;
+    width: 100%; /*pendiente para modificar 270px*/
     height: 120px;
     justify-content: center;
     align-items: center;
@@ -835,7 +835,7 @@ a {
     background-color: #3e4155;
     line-height: 1.87;
     transition-property:
-     var(--background-color-principal);
+    var(--background-color-principal);
     transition-duration: 250ms;
     transition-timing-function: 
     cubic-bezier(0.4, 0, 0.2, 1);
@@ -1026,11 +1026,7 @@ a {
     list-style: none;
 }
 
-@media (max-width: 767px) {
-    .menu {
-        display: none;
-    }
-}
+
 
 .menu .link {
     padding: 10px;
@@ -1243,7 +1239,7 @@ a {
         justify-content: center;
         align-items: center;
         max-width: 768px; ;
-        height: 400px;
+        height: auto;
         margin: 0 auto; 
         padding: 118px 0;
         background-image:   
