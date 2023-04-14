@@ -1220,7 +1220,7 @@ a {
 
 /*480*/
 
-@media screen and (min-width: 480px) and (max-width: 767px){ /*  toco colocar and para que hiro se centrara en los 1200px*/
+@media screen and (min-width: 480px) and (max-width: 767px){ /*  toco colocar and max-width para las clases de 480px no predominen en min-width: 768px*/
     .container{
         width: 480px;
         margin: auto;
@@ -1336,8 +1336,8 @@ a {
 }
 
 /*   768   */
-    
-@media screen and (min-width:768px){
+
+@media screen and (min-width:768px) and (max-width: 1117px){ /* toco colocar max-width 1117px para que preodmine las clases de 768px en min-width 1200px*/
     .container{
         width: 768px;
         margin: auto;
@@ -1488,6 +1488,7 @@ a {
         height: 609px;
     }
 }  
+
 @media screen and (min-device-pixel-ratio: 2) and (min-width:768px),
     screen and (min-resolution: 192dpi) and (min-width:768px),
     screen and (min-resolution: 2dppx ) and (min-width:768px) {
@@ -1598,7 +1599,7 @@ a {
         align-items: center;
         padding: 200px 0;
         display: flex;
-        width: 1200px;
+        width: auto;
         height: 600px;
         justify-content: space-evenly;
         flex-direction: column;
@@ -1646,7 +1647,7 @@ a {
     }
     .section-benefist__icons{
         display: flex;
-        width: 100%;
+        width: 270px;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -1681,7 +1682,7 @@ a {
     }
     .section-team__items{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         text-align: center;
         gap: 30px;
@@ -1703,7 +1704,7 @@ a {
     }
     .section-custom__list{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         text-align: center;
         gap: 30px;
