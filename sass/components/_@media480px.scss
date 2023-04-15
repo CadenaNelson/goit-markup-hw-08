@@ -1,5 +1,4 @@
-$min-width: 480px;
-$max-width: 767px;
+
 
 @media screen and (min-width: $min-width) and (max-width: $max-width){ /*  toco colocar and max-width para las clases de 480px no predominen en min-width: 768px*/
     .container{
@@ -106,12 +105,4 @@ $max-width: 767px;
         width: 450px;
         height: 609px;
     }
-}
-@media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx ){
-        .hero{
-            background-image: linear-gradient(to right,  rgba(47,48,58,0.4), rgba(47,48,58,0.4)),
-            url(../images/bg-d@2x.jpg);
-        }
 }

@@ -489,6 +489,40 @@ a {
   margin-left: 20px;
 }
 
+.section-btn__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 8px;
+  padding-bottom: 56px;
+}
+
+.section-btn__list {
+  color: #212121;
+  background-color: #F5F4FA;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.62;
+  border: 0;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 145px;
+  height: 38px;
+  transition-property: #2196F3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+}
+.section-btn__list:hover, .section-btn__list:focus {
+  color: #FFFFFF;
+  background-color: #2196F3;
+}
+
 .menu .link {
   padding: 10px;
   color: inherit;
@@ -657,6 +691,108 @@ a {
   margin-right: 10px;
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) { /*  toco colocar and max-width para las clases de 480px no predominen en min-width: 768px*/
+  .container {
+    width: 480px;
+    margin: auto;
+  }
+  .section {
+    padding: 60px 0;
+  }
+  .logo {
+    font-size: 24px;
+    line-height: 1.16;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header-contacs {
+    display: none;
+  }
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 768px;
+    height: auto;
+    margin: 0 auto;
+    padding: 118px 0;
+    background-image: linear-gradient to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4), url(../images/bg-d.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .hero .hero__title {
+    width: auto;
+    font-size: 26px;
+    line-height: 1.61;
+  }
+  .hero .hero__button {
+    font-size: 14px;
+  }
+  .section-benefist__items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section-benefist .section-benefist__icons {
+    width: 450px;
+  }
+  .section-service {
+    display: none;
+  }
+  .section-team .section-team__items {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  img {
+    width: 450px;
+    height: auto;
+  }
+  .section-team__list .section-team__name {
+    width: 450px;
+  }
+  .section-team__list .section-team__profesion {
+    width: 450px;
+  }
+  .section__title--custom {
+    text-align: start;
+    padding-left: 55px;
+  }
+  .section-custom .section-custom__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section-custom .section-custom__links {
+    width: 210px;
+    height: 92px;
+  }
+  .footer-style {
+    text-align: center;
+    flex-direction: column;
+  }
+  .footer__address {
+    margin: 28px;
+  }
+  .footer-social-nekworks__title {
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+  .footer-social-networks-items {
+    margin-right: 0px;
+    margin-bottom: 60px;
+  }
+  .footer-form {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-form .footer-form__input {
+    margin-bottom: 20px;
+  }
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
+}
 .page-header .container__header {
   display: flex;
   justify-content: space-between;
@@ -1028,40 +1164,6 @@ a {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
-}
-
-.section-btn__items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  gap: 8px;
-  padding-bottom: 56px;
-}
-
-.section-btn__list {
-  color: #212121;
-  background-color: #F5F4FA;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.62;
-  border: 0;
-  cursor: pointer;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  width: 145px;
-  height: 38px;
-  transition-property: #2196F3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
-}
-.section-btn__list:hover, .section-btn__list:focus {
-  color: #FFFFFF;
-  background-color: #2196F3;
 }
 
 .cards__items {
