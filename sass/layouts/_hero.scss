@@ -57,12 +57,12 @@
     }
 }
 
-@media screen and (min-width: 480px) {
-    hero{
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .hero{
         display: flex;
         justify-content: center;
         align-items: center;
-        max-width: 768px; ;
+        width: auto;
         height: auto;
         margin: 0 auto; 
         padding: 118px 0;
@@ -93,7 +93,7 @@
         }
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) and (max-width: 1199px){
     .hero{
         width: auto;
         display: flex;
@@ -128,9 +128,6 @@
         }
 }
 
-@media screen and (min-width: 1200px){
-
-}
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width:1200px),
     screen and (min-resolution: 192dpi) and (min-width:1200px),

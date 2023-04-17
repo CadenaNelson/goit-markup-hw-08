@@ -1216,8 +1216,8 @@ a {
 
 /*480*/
 
-@media screen and (min-width: 480px) and (max-width: 767px){ /*  toco colocar and max-width para las clases de 480px no predominen en min-width: 768px*/
-    .container{
+/*@media screen and (min-width: 480px) and (max-width: 767px){ /*  toco colocar and max-width para las clases de 480px no predominen en min-width: 768px*/
+/* .container{
         width: 480px;
         margin: auto;
     }
@@ -1321,19 +1321,19 @@ a {
         width: 450px;
         height: 609px;
     }
-}
-@media screen and (min-device-pixel-ratio: 2),
+}*/
+/*@media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx ){
         .hero{
             background-image: linear-gradient(to right,  rgba(47,48,58,0.4), rgba(47,48,58,0.4)),
             url(../images/bg-d@2x.jpg);
         }
-}
+}*/
 
 /*   768   */
 
-@media screen and (min-width:768px) and (max-width: 1117px){ /* toco colocar max-width 1117px para que preodmine las clases de 768px en min-width 1200px*/
+/*@media screen and (min-width:768px) and (max-width: 1117px){ /* toco colocar max-width 1117px para que preodmine las clases de 768px en min-width 1200px*/
     .container{
         width: 768px;
         margin: auto;
@@ -1483,9 +1483,9 @@ a {
         width: 450px;
         height: 609px;
     }
-}  
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width:768px),
+
+/*@media screen and (min-device-pixel-ratio: 2) and (min-width:768px),
     screen and (min-resolution: 192dpi) and (min-width:768px),
     screen and (min-resolution: 2dppx ) and (min-width:768px) {
         .hero{
@@ -1494,10 +1494,10 @@ a {
             rgba(47,48,58,0.4)),
             url(../images/bg-t@2x.jpg);
         }
-}
+}*/
 /*    1200    */
 
-@media screen and (min-width: 1200px) {
+/*@media screen and (min-width: 1200px) {
     .container{
         width: 1200px;
         margin:auto;
@@ -1768,4 +1768,4 @@ a {
             rgba(47,48,58,0.4)),
             url(../images/bg@2x.jpg); 
         }
-}
+}*/

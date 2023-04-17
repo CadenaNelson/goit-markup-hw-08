@@ -34,7 +34,7 @@
     }
 }
 
-@media screen and (min-width: 480px){
+@media screen and (min-width: 480px) and (max-width: 767px){
     .section-benefist__items{
         display: flex;
         flex-wrap: wrap;
@@ -44,7 +44,7 @@
     }
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) and (max-width: 1199px){
     .section-benefist .section-benefist__items{
         flex-direction: row;
         align-items: flex-start;
