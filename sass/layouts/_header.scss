@@ -170,3 +170,46 @@
         color: $color-secundario;
     }
 }
+
+@media screen and (min-width: 480px){
+    .header__nav {
+        display: none;
+    }
+    .header-contacs{
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px){
+    .container__header{
+        gap: 50px;
+        justify-content: space-between;
+    }
+    .header__nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        text-decoration: none;
+    }
+    .header__nav .header__nav-link--studio {
+        font-size: 14px;
+        line-height: 1.14;
+    }
+    .header-contacs{
+        display: inline-block;
+    }
+    .header-contacs .header-contacs__items{
+        font-size: 12px;
+        line-height: 1.16;
+    }
+    .header-contacs__icon--email{
+        width: 14px;
+        height: 10px;
+    }
+    .header-contacs__icon--phone{
+        width: 10px;
+        height: 14px;
+    }
+}
+

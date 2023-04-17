@@ -56,3 +56,89 @@
         color: $color-principal;
     }
 }
+
+@media screen and (min-width: 480px) {
+    hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 768px; ;
+        height: auto;
+        margin: 0 auto; 
+        padding: 118px 0;
+        background-image:   
+        linear-gradient (to right, 
+        rgba(47,48,58,0.4), 
+        rgba(47,48,58,0.4)),
+        url(../images/bg-d.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .hero .hero__title{
+        width: auto;
+        font-size: 26px;
+        line-height: 1.61;
+    }
+    .hero .hero__button{
+        font-size: 14px;
+    }
+}
+@media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx ){
+        .hero{
+            background-image: linear-gradient(to right,  rgba(47,48,58,0.4), rgba(47,48,58,0.4)),
+            url(../images/bg-d@2x.jpg);
+        }
+}
+
+@media screen and (min-width:768px){
+    .hero{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        margin: 0 auto; 
+        padding: 118px 0;
+        background-image:   
+        linear-gradient (to right, 
+        rgba(47,48,58,0.4), 
+        rgba(47,48,58,0.4)),
+        url(../images/bg-t.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .hero .hero__title{
+        width: auto;
+        font-size: 26px;
+        line-height: 2.6;
+    }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width:768px),
+    screen and (min-resolution: 192dpi) and (min-width:768px),
+    screen and (min-resolution: 2dppx ) and (min-width:768px) {
+        .hero{
+            background-image: linear-gradient(to right, 
+            rgba(47,48,58,0.4), 
+            rgba(47,48,58,0.4)),
+            url(../images/bg-t@2x.jpg);
+        }
+}
+
+@media screen and (min-width: 1200px){
+
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width:1200px),
+    screen and (min-resolution: 192dpi) and (min-width:1200px),
+    screen and (min-resolution: 2dppx ) and (min-width:1200px) {
+        .hero{
+            background-image: linear-gradient(to right, 
+            rgba(47,48,58,0.4), 
+            rgba(47,48,58,0.4)),
+            url(../images/bg@2x.jpg); 
+        }
+}

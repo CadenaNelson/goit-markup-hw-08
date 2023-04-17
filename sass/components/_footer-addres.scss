@@ -58,3 +58,26 @@
     color: $color-secundario;
 }
 
+@media screen and (min-width: 480px){
+    .footer-style{
+        text-align: center;
+        flex-direction: column;
+    }
+    .footer__address{
+        margin: 28px;
+    }
+}
+
+@media screen and (min-width:768px){
+    .page-footer{
+        text-align: center;
+    }
+    .footer-style {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
