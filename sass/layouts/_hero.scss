@@ -3,27 +3,27 @@
     background-color: #2F303A;
     text-align: center;
     align-items: center;
-    padding: 200px 0;
+    padding: 118px 0;
     display: flex;
     width: auto;
     height: auto;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     background-image:
         linear-gradient(to right,
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
-        url(../images/bg.jpg);
+        url(../images/bg-d.jpg);
     background-position: center;
     background-size: cover;
 
     .hero__title {
         color: $color-terceario;
-        width: 696px;
+        width: auto;
         font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
+        font-size: 26px;
+        line-height: 1.61;
         text-align: center;
         letter-spacing: 0.06em;
         margin-left: auto;
@@ -57,7 +57,7 @@
     }
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+/*@media screen and (min-width: 480px) and (max-width: 767px) {
     .hero{
         display: flex;
         justify-content: center;
@@ -83,7 +83,7 @@
     .hero .hero__button{
         font-size: 14px;
     }
-}
+}*/
 @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx ){
@@ -128,6 +128,39 @@
         }
 }
 
+@media screen and (min-width:1200px){
+    .hero{
+        color: $color-terceario;
+        background-color: #2F303A;
+        text-align: center;
+        align-items: center;
+        padding: 200px 0;
+        display: flex;
+        width: auto;
+        height: auto;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        background-image:
+            linear-gradient(to right,
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+            url(../images/bg.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .hero .hero__title {
+        color: $color-terceario;
+        width: 696px;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width:1200px),
     screen and (min-resolution: 192dpi) and (min-width:1200px),

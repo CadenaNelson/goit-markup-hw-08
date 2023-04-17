@@ -2,13 +2,13 @@
     color: $color-secundario;
     font-family: "Raleway";
     font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+    font-size: 24px;
+    line-height: 1.16;
     margin-top: 24px;
     margin-bottom: 25px;
 } 
 
-@media screen and (min-width: 480px) and (max-width: 767px){
+/*@media screen and (min-width: 480px) and (max-width: 767px){
     .logo{
         font-size: 24px;
         line-height: 1.16;
@@ -20,13 +20,13 @@
         font-size: 24px;
         line-height: 1.16;
     }
-}
+}*/
 
 @media screen and (min-width: 1200px){
     .logo{
-        font-weight: 700;
         font-size: 26px;
         margin-top: 24px;
+        line-height: 1.19;
         margin-bottom: 25px;
     }
 }

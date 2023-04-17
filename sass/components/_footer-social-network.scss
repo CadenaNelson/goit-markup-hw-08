@@ -4,6 +4,8 @@
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
 .footer-social-networks-items{
     display: flex;
@@ -11,7 +13,8 @@
     align-items: center;
     gap: 10px;
     margin-top: 20px;
-    margin-right: 100px;
+    margin-right: 0px;
+    margin-bottom: 60px;
     cursor: pointer;
     list-style: none;
     transition-property: color;
@@ -71,4 +74,15 @@
     .footer-social-networks-items {
         margin-right:0;
     }
+}
+@media screen and (min-width:1200px){
+    .footer-social-nekworks__title{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .footer-social-networks-items{
+        margin-right: 100px;
+        margin-bottom: 0px;
+    }
+
 }
