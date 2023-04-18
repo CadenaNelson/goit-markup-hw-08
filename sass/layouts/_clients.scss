@@ -49,22 +49,18 @@
         }
 }
 
-/*@media screen and (min-width: 480px) and (max-width: 767px){
-    .section__title--custom{
-        text-align: start;
-        
-    }
+@media screen and (min-width: 480px){
     .section-custom .section-custom__list{
         display: flex;
         flex-wrap: wrap;
     }
     .section-custom .section-custom__links {
-        width: 210px;
+        width: 45%;
         height: 92px;
     }
-}*/
+}
 
-@media screen and (min-width:768px) and (max-width: 1199px){
+@media screen and (min-width:768px){
     .section__title--custom{
         text-align: center;
     }
