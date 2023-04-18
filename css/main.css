@@ -60,14 +60,12 @@ a {
   box-sizing: border-box;
 }
 
-container {
-  width: 1600px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
+/*.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}*/
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -85,6 +83,7 @@ container {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  width: auto;
 }
 
 @media screen and (min-width: 480px) {
@@ -1238,7 +1237,7 @@ container {
 .section-benefist .section-benefist__icons {
   background-color: #F5F4FA;
   display: flex;
-  /*width: 450px;*/
+  width: 450px;
   height: 120px;
   justify-content: center;
   align-items: center;
@@ -1354,10 +1353,11 @@ container {
   gap: 30px;
 }
 
-/*img{
-    width: 100%;
-    height: auto;
-}*/
+img {
+  width: 450px;
+  height: auto;
+}
+
 .section-team__list {
   align-items: center;
   text-align: center;
@@ -1453,7 +1453,7 @@ container {
 
 .section-custom__links {
   border: 1px solid #AFB1B8;
-  width: 45%;
+  width: 210px;
   height: 92px;
   display: flex;
   justify-content: center;
