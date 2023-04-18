@@ -1354,10 +1354,11 @@ container {
   gap: 30px;
 }
 
-/*img{
-    width: 100%;
-    height: auto;
-}*/
+img {
+  width: 94vw;
+  height: auto;
+}
+
 .section-team__list {
   align-items: center;
   text-align: center;
@@ -1389,14 +1390,8 @@ container {
         align-items: flex-start;
     }
     img{
-        width: 450px;
+        width: 94vw;
         height: auto;
-    }
-    .section-team__list .section-team__name{
-        width:450px;
-    }
-    .section-team__list .section-team__profesion{
-        width:450px;
     }
 }*/
 @media screen and (min-width: 768px) and (max-width: 1199px) {
