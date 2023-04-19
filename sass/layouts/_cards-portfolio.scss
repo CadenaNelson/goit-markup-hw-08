@@ -45,7 +45,7 @@
     }
 }
 .cards__description{
-    padding: 20px 24px;
+    padding: 20px 0px 20px 24px;
 
     .cards__title{
         color: $color-principal;
@@ -68,6 +68,7 @@
         height: 30px;
     }
 }
+
 @media screen and (min-width: 480px){
     .cards__body .cards__text{
         display: none;

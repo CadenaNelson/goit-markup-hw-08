@@ -1565,7 +1565,7 @@ img {
 }
 
 .cards__description {
-  padding: 20px 24px;
+  padding: 20px 0px 20px 24px;
 }
 .cards__description .cards__title {
   color: #212121;
