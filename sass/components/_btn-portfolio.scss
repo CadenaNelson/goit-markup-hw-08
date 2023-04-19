@@ -5,8 +5,9 @@
     justify-content: center;
     align-items: center;
     list-style: none;
-    gap: 08px;
+    gap: 12px;
     padding-bottom: 56px;
+    flex-wrap: wrap;
 }
 .section-btn__list{
     color: $color-principal;
@@ -38,3 +39,38 @@
     }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .section-btn__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 12px;
+    padding-bottom: 56px;
+    flex-wrap: wrap;
+    }
+}
+@media screen and (min-width: 768px){
+    .section-btn__items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        gap: 8px;
+        padding-bottom: 56px;
+        }
+    .section-btn__list{
+        width: 140px;
+    }   
+}
+
+@media screen and (min-width: 1200px){
+    .section-btn__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 8px;
+    padding-bottom: 56px;
+    }
+}

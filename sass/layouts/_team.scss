@@ -49,7 +49,7 @@ img{
         align-items: flex-start;
     }
     img{
-        width: 94vw;
+        width: 450px;
         height: auto;
     }
 }
@@ -66,12 +66,7 @@ img{
         width:354px;
         height: auto;
     }
-    .section-team__list .section-team__name{
-        width:auto;
-    }
-    .section-team__list .section-team__profesion{
-        width:auto;
-    }
+    
 }
 @media screen and (min-width:1200px){
     .section-team .section-team__items {
