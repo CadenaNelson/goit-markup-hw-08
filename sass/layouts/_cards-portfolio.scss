@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     gap: 26px;
     list-style: none;
+    justify-content: center;
 }
 .cards__list{
     border: 1px solid #EEEEEE;
@@ -69,13 +70,20 @@
     }
 }
 
-@media screen and (min-width: 480px){
+@media screen and (min-width: 480px) and (max-width: 767px){
     .cards__body .cards__text{
         display: none;
     }
+    .cards__body .cards__text > p{
+        display: none;
+    }
+    img{
+        width: 450px;
+        height: auto;
+    }
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) and (max-width: 1199px){
     .cards__items {
         display: flex;
         flex-wrap: wrap;
@@ -90,5 +98,23 @@
     }
     .cards__description {
         padding: 20px 0px 20px 24px;
+    }
+}
+@media screen and (min-width:1200px) {
+    img{
+        width: 100%;
+    }
+    .cards__description {
+        padding: 20px 0px 20px 24px;
+    }
+    .cards__text>p {
+        display: flex;
+        color: $color-terceario;
+        padding: 63px 24px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.55;
+        text-align: center;
+        align-items: center;
     }
 }

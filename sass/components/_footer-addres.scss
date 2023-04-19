@@ -5,7 +5,7 @@
 }
 .footer-style {
     text-align: center;
-        flex-direction: column; 
+    flex-direction: column; 
 }
 .footer__address {
     font-family: 'Roboto';
@@ -20,13 +20,15 @@
         display: inline-block;
         flex-direction: column;
         margin: auto;
+        text-align: center;
     }
         .footer__list{
             color: $color-terceario;
-            width: 231px;
-            height: 21px;
+            /*width: 231px;
+            height: 21px;*/
             margin-top: 9px;
             margin-bottom: 23px;
+            text-align: center;
         }
 }
 .footer__email{
@@ -64,6 +66,10 @@
     .footer-style{
         text-align: center;
         flex-direction: column;
+    }
+    .footer__list{
+        width: 231px;
+        height: 21px;
     }
     .footer__address{
         margin: 28px;

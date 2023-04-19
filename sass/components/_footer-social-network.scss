@@ -9,9 +9,11 @@
 }
 .footer-social-networks-items{
     display: flex;
+    flex-wrap: wrap ;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    width: 100%;
     margin-top: 20px;
     margin-right: 0px;
     margin-bottom: 60px;
@@ -84,5 +86,4 @@
         margin-right: 0px;
         margin-bottom: 0px;
     }
-
 }
