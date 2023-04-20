@@ -106,24 +106,42 @@ container {
   color: #2196F3;
   font-family: "Raleway";
   font-weight: 700;
-  font-size: 24px;
+  font-size: 26px;
   line-height: 1.16;
   margin-top: 24px;
   margin-bottom: 25px;
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-@media screen and (min-width: 1200px) {
-  .logo {
-    font-size: 26px;
-    margin-top: 24px;
-    line-height: 1.19;
-    margin-bottom: 25px;
-  }
+.logo--footer {
+  color: #2196F3;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+/*@media screen and (min-width: 768px){
+    .logo{
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .logo{
+        font-size: 26px;
+        margin-top: 0px;
+        line-height: 1.19;
+        margin-bottom: 25px;
+    }
+}*/
 .modal {
   position: absolute;
   color: #212121;
@@ -390,7 +408,7 @@ container {
 }
 .footer__address .footer__items {
   list-style: none;
-  display: inline-block;
+  display: flex;
   flex-direction: column;
   margin: auto;
   text-align: center;
@@ -399,7 +417,6 @@ container {
   color: #FFFFFF;
   /*width: 231px;
   height: 21px;*/
-  margin-top: 9px;
   margin-bottom: 23px;
   text-align: center;
 }
@@ -442,9 +459,11 @@ container {
   .footer__list {
     width: 231px;
     height: 21px;
+    align-items: center;
   }
   .footer__address {
-    margin: 28px;
+    display: flex;
+    margin: 0px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1112,7 +1131,6 @@ container {
   text-align: center;
   align-items: center;
   padding: 118px 0;
-  display: flex;
   width: auto;
   height: auto;
   justify-content: center;
@@ -1141,7 +1159,6 @@ container {
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  width: 50%;
   padding: 10px 19px;
   border: 0;
   cursor: pointer;
@@ -1161,7 +1178,6 @@ container {
 
 @media screen and (min-width: 480px) {
   .hero {
-    display: flex;
     justify-content: center;
     align-items: center;
     width: auto;
@@ -1206,9 +1222,9 @@ container {
     font-size: 26px;
     line-height: 2.6;
   }
-  .hero .hero__button {
-    width: 35%;
-  }
+  /*.hero .hero__button {
+      width: 100%;
+  }*/
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .hero {
@@ -1290,7 +1306,6 @@ container {
 .section-benefist .section-benefist__titles {
   color: #212121;
   font-weight: 700;
-  text-align: center;
   align-items: center;
   line-height: 1.14;
   margin-top: 30px;
@@ -1617,8 +1632,8 @@ img {
   .cards__body .cards__text > p {
     display: none;
   }
-  img {
-    width: 450px;
+  .img-card {
+    width: 100%;
     height: auto;
   }
 }

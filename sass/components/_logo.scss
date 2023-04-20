@@ -2,21 +2,38 @@
     color: $color-secundario;
     font-family: "Raleway";
     font-weight: 700;
-    font-size: 24px;
+    font-size: 26px;
     line-height: 1.16;
     margin-top: 24px;
     margin-bottom: 25px;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+.logo--footer{
+    color: $color-secundario;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*@media screen and (min-width: 768px){
+    .logo{
+        margin-top: 0;
+    }
+}
+
 @media screen and (min-width: 1200px){
     .logo{
         font-size: 26px;
-        margin-top: 24px;
+        margin-top: 0px;
         line-height: 1.19;
         margin-bottom: 25px;
     }
-}
+}*/
