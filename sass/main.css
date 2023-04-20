@@ -1129,13 +1129,9 @@ container {
   color: #FFFFFF;
   background-color: #2F303A;
   text-align: center;
-  align-items: center;
   padding: 118px 0;
   width: auto;
   height: auto;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg-d.jpg);
   background-position: center;
   background-size: cover;
@@ -1625,15 +1621,20 @@ img {
   height: 30px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+.img--card {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 480px) {
   .cards__body .cards__text {
     display: none;
   }
   .cards__body .cards__text > p {
     display: none;
   }
-  .img-card {
-    width: 100%;
+  .img--card {
+    width: 480px;
     height: auto;
   }
 }
@@ -1646,7 +1647,7 @@ img {
     flex-basis: calc((100% - 60px) / 2);
     justify-content: space-between;
   }
-  img {
+  .img--card {
     width: 354px;
     height: auto;
   }
@@ -1655,7 +1656,7 @@ img {
   }
 }
 @media screen and (min-width: 1200px) {
-  img {
+  .img--card {
     width: 100%;
   }
   .cards__description {
